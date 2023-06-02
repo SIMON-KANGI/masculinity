@@ -1,0 +1,430 @@
+*{
+    text-decoration:none;
+    scroll-behavior:smooth;
+
+}
+body{
+  max-width:100%;
+}
+.logo{
+  font-size: 5rem;
+}
+nav{
+  float:right;
+}
+ul{
+  display:flex;
+  
+}
+li{
+  list-style-type: none;
+  margin:10px;
+}
+a{
+  color:#818181;
+  cursor:pointer;
+}
+ul li a:hover{
+  cursor: pointer;
+}
+
+#open{
+  display:none;
+}
+
+@media screen and (max-width: 450px) {
+  #image1{
+    width:100%
+  }
+.navbar{
+  display:none;
+} 
+  #open{
+    display:block;
+  }
+  .text1{
+    font-size:.5rem;
+    font-weight:bold;
+  }
+  .text2{
+    font-size:.4rem;
+    font-weight:bold;
+    margin-left:100px;
+  }
+}
+
+#image1{
+  width:100%
+}
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+ display: block;
+  }
+  .text1{
+    font-size:5rem;
+    font-weight:bold;
+  }
+  .text2{
+    font-size:4rem;
+    font-weight:bold;
+    margin-left:100px;
+  }
+  .hero-text a{
+    border: solid 2px white;;
+  outline: 0;
+  display: inline-block;
+margin-left:200px;
+  opacity:1;
+  text-align: center;
+  cursor: pointer;
+  width:120px;
+  height:50px;
+  font-size:1rem;
+  color:white;
+  }
+  .hero-text a:hover{
+   background-color:black
+  }
+  .hero-image {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  #text3{
+    display:flex;
+    
+    
+  }
+  h2{
+    font-size:3rem;
+    padding-left:100px;
+  }
+  #text4{
+padding-left:500px;
+  }
+  #text{
+    
+    margin-top:50px;
+  }
+  #text6,
+  #text8{
+    background-color: rgb(15, 15, 46);
+  display:flex;
+  width:100%;
+  }
+  #text5 h3{
+    padding-top:100px;
+    color:white;
+    font-size:3rem;
+  }
+  #text5 p{
+    color:white;
+  }
+#text7 img{
+    width:100%;
+    height:100%;
+float:right;
+ background-position: center;
+  background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+@media screen and (max-width:700px){
+  #image1{
+    width:100%
+  }
+  nav{
+    float:center;
+  }
+  .text1{
+    font-size:2rem;
+    font-weight:bold;
+  }
+  .text2{
+    font-size:2rem;
+    font-weight:bold;
+    margin-left:10px;
+  }
+  .hero-text a{
+    margin-left:50px
+  }
+  #text3{
+    display:flex;
+    }
+    #text4{
+      padding-left:0px;
+        }
+      #text6{
+        display:block;
+      }
+      #text8{
+        margin-top: 10px;
+      }
+      #text8 img{
+      display:none;
+      }
+      #texts2 button{
+        margin-left:50px;
+        background-color: black;
+        color:white;
+        width:150px;
+        height:50px;
+      }
+}
+#texts{
+    width:100%;
+   display:block;
+}
+#texts button{
+    width:150px;
+    margin-top: 0rem;
+    height:50px;
+}
+#texts h4{
+    font-size:3rem;
+    padding-top:100px;
+ 
+}
+#texts p{
+    padding-top:30px;
+   
+}
+#text8 img{
+  width:40%
+}
+#texts2{
+  width:100%;
+  align-content: center;
+}
+#texts2 h4{
+  font-size:3rem;
+  padding-top:50px;
+}
+#texts2 p{
+  font-size:1rem;
+  padding-top:20px;
+}
+#texts2 button{
+  margin-left:350px;
+  background-color: black;
+  color:white;
+  width:150px;
+  height:50px;
+}
+#texts2 button:hover{
+  background-color: #818181;
+  color:black;
+}
+#center img{
+  width:100px;
+}
+#image4{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width:100%;
+  opacity:1
+}
+#text9{
+  background-color: black;
+}
+#text10{
+  position: absolute;
+  top: 170%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  color:white;
+display: block;
+}
+h5{
+  font-size:2rem;
+  font-weight:bold;
+}
+#btn2{
+  width:150px;
+  height:50px;
+  
+}
+#btn2:hover{
+  background-color: rgb(12, 12, 15);
+  color:white;
+}
+.row{
+  display:flex;
+}
+#image5{
+  width:70%;
+  height:30%;
+}
+#text11{
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color:rgb(24, 22, 22);
+display: block;
+}
+#text12{
+  position: absolute;
+  top:170%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color:rgb(243, 230, 230);
+display: block;
+}
+#text13{
+  position: absolute;
+  top:50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color:rgb(243, 230, 230);
+display: block;
+}
+@media screen and(max-width:600px){
+  #text10{
+    position: absolute;
+    top: 170%;
+    left: 110%;
+    transform: translate(-50%, -50%);
+    color:white;
+  display: block;
+  }
+  .row{
+    display:block;
+    padding-top:20px;
+  }
+}
+#btn3{
+  background-color: black;
+  color:white;
+  width:150px;
+  height:50px;
+}
+#btn3:hover{
+  background-color: rgb(224, 205, 205);
+  color:rgb(12, 7, 7);
+}
+#clients{
+  margin-top:10rem;
+  background-color:rgb(2,2,30)
+}
+#quotes{
+  color:white;
+  font-size:20px;
+  margin:20px;
+}
+#men{
+  width:150px;
+  border-radius:50%;
+
+}
+#comments{
+  display:flex;
+  padding-left: 400px;
+}
+#state{
+display:flex;
+padding-left:50px;
+}
+#h3{
+  padding-top:50px;
+  font-size:2.5rem;
+}
+#jump{
+  width:70%;
+  padding-left:50px;
+  height:550px;
+}
+#mail{
+  display:block;
+  padding-left:15rem;
+  padding-top: 10rem;
+}
+#final{
+  margin-top:100px;
+  background-color:rgb(2,2,10)
+}
+#prices{
+  margin-top:100px;
+  background-color: rgb(2, 2, 26);
+  width:100%;
+  height:100%
+}
+#prices h1{
+  color:white;
+  font-weight:bolder;
+  font-size:5rem;
+}
+.row{
+  display:flex;
+  padding-top:20px;
+}
+.col{
+  background-color: aliceblue;
+  margin:10px;
+
+}
+.col h2{
+  font-size:20px;
+  padding-top:20px;
+  padding-right:20px;
+}
+strong{
+  font-size:4rem;
+}
+#select{
+  
+  background-color: rgb(5, 95, 79);
+  color:white;
+  width:200px;
+  height:50px;
+  position:relative;
+  float:botton;
+}
+.table{
+  position:absolute;
+  background-color: white;
+  padding-top:20px;
+  width:280px;
+  align-items: center;
+}
+#list{
+ margin-left:10px;
+  margin-right:10px;
+}
+#list2{
+  margin-top:200px;
+  margin-left:10px;
+  margin-right:10px;
+}
+#list3{
+  margin-top:100px;
+  margin-left:10px;
+  margin-right:10px;
+  width:300px;
+}
+#book{
+  display:block;
+}
+.modal-body{
+  display:block;
+}
+.modal-body button{
+  margin:5px;
+}
+#gg{
+  background-color: aliceblue;
+}
+#meta{
+  background-color: rgba(0, 0, 200, 0.726);
+  color:white;
+}
+#mail{
+  width:100%;
+  height:50px;
+}
