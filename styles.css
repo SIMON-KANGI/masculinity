@@ -31,6 +31,9 @@ ul li a:hover{
 #open{
   display:none;
 }
+button{
+    cursor:pointer;
+}
 
 @media screen and (max-width: 450px) {
   #image1{
